@@ -7,6 +7,6 @@ int main()
 	cout<<" enter th number positive number :";
 	cin>>n;
 	cube=cbrt(n);
-	cout<< " the squar root :"<<cube;
+	cout<< " the cube root :"<<cube;
 	return 0;
 }
