@@ -5,9 +5,9 @@ int main()
 	int i,n, div,sum=0;
 	cout<<" enter the number :";
 	cin>>n;
-	for (i =0;i<n;i++)
+	for (i =1;i<n;i++)
 	{
-		div == n % i;
+		div =n % i;
 		if(div==0)
 		 sum = sum + i;
 	}
